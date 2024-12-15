@@ -1,0 +1,48 @@
+package main
+
+import (
+    "fmt"
+    "strconv"
+)
+
+func main() {
+   var str string = "5"
+   num, _ := strconv.Atoi(str)
+   fmt.Println(num * 2) // вывод 10
+}
+
+---------------------------------------
+package main
+
+import (
+    "fmt"
+    "strconv"
+)
+
+func main(){
+   var num int = 5
+   str := strconv.Itoa(num)
+   fmt.Println(str+str) // вывод 55
+}
+
+---------------------------------------
+package main
+
+import "fmt"
+
+func main(){
+   var a float64 = 6.6
+   b := int(a) // приведение (casting) вещественного числа к целому
+   fmt.Println(b) // Вывод 6
+}
+
+---------------------------------------
+package main
+
+import "fmt"
+
+func main(){
+   var a int = 6
+   b := float64(a) // приведение (casting) целого числа к вещественному
+   fmt.Println(b + 0.4) // Вывод 6.4
+}
