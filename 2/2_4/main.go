@@ -91,12 +91,26 @@
 
 // #
 
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	var t, c, p, h int
-	_, _ = fmt.Scan(&t, &c, &p, &h)
-	fmt.Println(3 * (t + c + p + h))
-}
+// func main() {
+// 	var t, c, p, h int
+// 	_, _ = fmt.Scan(&t, &c, &p, &h)
+// 	fmt.Println(3 * (t + c + p + h))
+// }
+
+// #
+
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var r, k, n int
+// 	fmt.Scan(&r, &k, &n)
+// 	fmt.Println(r*n+((k*n)/100), (k*n)%100)
+// }
+
+// #
