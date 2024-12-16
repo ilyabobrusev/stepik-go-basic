@@ -114,3 +114,26 @@
 // }
 
 // #
+
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var m int
+// 	fmt.Scan(&m)
+// 	fmt.Println(m, "мин - это", m/60, "час", m%60, "минут.")
+// }
+
+// #
+
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var num int
+// 	fmt.Scan(&num)
+// 	fmt.Println("Следующее за числом", num, "число:", num+1)
+// 	fmt.Println("Для числа", num, "предыдущее число:", num-1)
+// }
