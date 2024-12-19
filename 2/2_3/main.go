@@ -10,7 +10,7 @@ func main() {
 	fmt.Println("Привет,", name)
 }
 
-#
+//
 
 package main
 
@@ -27,7 +27,7 @@ func main() {
     fmt.Println(name, "- лучшая книга!")
 }
 
-#
+//
 
 package main
 
@@ -52,7 +52,7 @@ func main() {
     fmt.Println(var3)
 }
 
-#
+//
 
 package main
 
@@ -77,7 +77,7 @@ func main() {
     fmt.Println(var1)
 }
 
-#
+//
 
 package main
 
