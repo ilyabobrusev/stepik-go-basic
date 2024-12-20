@@ -1,0 +1,57 @@
+package main
+
+import (
+    "fmt"
+)
+
+var _ = func() int {
+	    a = true
+	    return 0
+}()
+
+var a bool
+
+func main() {
+    fmt.Println(a)
+	if a {
+		panic("FAIL")
+	}
+}
+
+//
+package main
+
+import (
+    "fmt"
+)
+
+var _ = func() int {
+	    a = 1
+		b = 2
+		c = 3
+	    return 0
+}()
+
+// var _ = func() int {
+// 		b = 2
+// 		return 0
+// }()
+
+// var _ = func() int {
+// 		c = 3
+// 		return 0
+// }()
+
+var a int
+var b int
+var c int
+
+func main() {
+    fmt.Println(a)
+	fmt.Println(b)
+	fmt.Println(c)
+}
+
+
+
+
